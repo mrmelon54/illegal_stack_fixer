@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "illegal_stack_fixer",
+  "version": "${version}",
+  "name": "Illegal Stack Fixer",
+  "description": "Resets stack count to maximum stack size",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contact": {
+    "homepage": "https://mrmelon54.com/minecraft/illegal-stack-fixer",
+    "sources": "https://github.com/MrMelon54/illegal_stack_fixer",
+    "issues": "https://github.com/MrMelon54/illegal_stack_fixer/issues"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrmelon54.IllegalStackFixer.fabric.IllegalStackFixerFabric"
+    ]
+  },
+  "mixins": [
+    "illegal_stack_fixer.mixins.json",
+    "illegal_stack_fixer-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "architectury": ">=9.0.0"
+  }
+}

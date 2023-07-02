@@ -1,0 +1,10 @@
+{
+  "modid": "illegal_stack_fixer",
+  "modname": "Illegal Stack Fixer",
+  "modclass": "IllegalStackFixer",
+  "modgroup": "com.mrmelon54.IllegalStackFixer",
+  "moddesc": "Resets stack count to maximum stack size",
+  "modwebsite": "https://mrmelon54.com/minecraft/illegal-stack-fixer",
+  "modsource": "https://github.com/MrMelon54/illegal_stack_fixer",
+  "modissue": "https://github.com/MrMelon54/illegal_stack_fixer/issues"
+}
